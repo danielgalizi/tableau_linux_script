@@ -1,6 +1,6 @@
-title="Select example"
+title="Select Your Distro"
 prompt="Pick an option:"
-options=("A" "B" "C")
+options=("UBUNTU" "CENTOS" "OTHER")
 
 echo "$title"
 PS3="$prompt "
@@ -8,7 +8,10 @@ select opt in "${options[@]}" "Quit"; do
 
     case "$REPLY" in
 
-    1 ) echo "You picked $opt which is option $REPLY";;
+    1 ) echo "You picked $opt which is option $REPLY"
+    echo "daniel"
+    wget https://downloads.tableau.com/esdalt/10.5.0/tableau-server-10-5-0.x86_64.rpm
+                                                        ;;
     2 ) echo "You picked $opt which is option $REPLY";;
     3 ) echo "You picked $opt which is option $REPLY";;
 
