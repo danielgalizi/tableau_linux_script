@@ -4,8 +4,12 @@ server_debian="https://downloads.tableau.com/esdalt/10.5.0/tableau-server-10-5-0
 server_rhel="https://downloads.tableau.com/esdalt/10.5.0/tableau-server-10-5-0.x86_64.rpm"
 md5_debian="6F87C8D625327712474A1FFE12A04C02"
 md5_rhel="2F373B8427329BD28398A143396C5931"
-installer_debian="https://github.com/tableau/server-install-script-samples/raw/master/linux/automated-installer/packages/tableau-server-automated-installer-10-5-0_all.deb"
-installer_rhel="https://github.com/tableau/server-install-script-samples/raw/master/linux/automated-installer/packages/tableau-server-automated-installer-10-5-0.noarch.rpm"
+
+installer_debian="https://downloads.tableau.com/esdalt/10.5.1/tableau-server-10-5-1_amd64.deb"
+#"https://github.com/tableau/server-install-script-samples/raw/master/linux/automated-installer/packages/tableau-server-automated-installer-10-5-0_all.deb"
+
+installer_rhel="https://downloads.tableau.com/esdalt/10.5.1/tableau-server-10-5-1.x86_64.rpm"
+#"https://github.com/tableau/server-install-script-samples/raw/master/linux/automated-installer/packages/tableau-server-automated-installer-10-5-0.noarch.rpm"
 config_json="https://raw.githubusercontent.com/tableau/server-install-script-samples/master/linux/automated-installer/config.json"
 reg_templ="https://raw.githubusercontent.com/tableau/server-install-script-samples/master/linux/automated-installer/reg_templ.json"
 secrets_file="https://raw.githubusercontent.com/tableau/server-install-script-samples/master/linux/automated-installer/secrets"
